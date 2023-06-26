@@ -1,0 +1,35 @@
+# C++ Compiled Output
+bin/
+build/
+*.o
+*.a
+*.exe
+
+# CMake Build Files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeTmp/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+
+# IDE-specific Files
+.vscode/
+*.sln
+*.vcxproj*
+*.xcodeproj*
+*.dSYM/
+
+# Dependency Directories (Example: Conan)
+conan/
+
+# Other Generated/Temporary Files
+*.log
+*.swp
+*~
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+BoardGameEngine
