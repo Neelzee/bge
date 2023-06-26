@@ -1,12 +1,12 @@
-#ifndef NODECOST_H
-#define NODECOST_H
+#ifndef TILECOST_H
+#define TILECOST_H
 
-class NodeCost {
+class TileCost {
     private:
         int cost;
     
     public:
-        NodeCost(int cost);
+        TileCost(int cost);
         int getCost();
         void setCost(int newCost);
 }
