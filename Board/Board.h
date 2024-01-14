@@ -1,11 +1,13 @@
-#ifndef BOARD_H
-#define BOARD_H
+#pragma once
 
 #include <vector>
 #include <iostream>
+#include "Graph/Node.h"
 
+template<auto T>
 class Board {
-    private:
+  std::vector<Node<T>> nodes;
 
-
+public:
+  
 };
